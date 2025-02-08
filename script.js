@@ -18,7 +18,7 @@ function storeUserInfo() {
     const city = prompt("Enter your city:");
     const village = prompt("Enter your village:");
 
-    const userInfo = {
+    userInfo = {
         firstName,
         lastName,
         country,
